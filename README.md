@@ -54,8 +54,8 @@ After creating projects in supabase name your project and create a table accordi
 https://accounts.google.com/v3/signin/challenge/pk/presend?TL=ALgCv6z_EiDtLDSwQcXL-NanyaMF-tmAJyMZkl4dpLXLBATALA_6JhTNbd-G0oLQ&authuser=0&cid=1&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Frapt%3DAEjHL4PL5GWdjCsyqHm1u06PrzO1mzLvvnVx4JX62rZrwfiQXo9IG0f_hYQR3HjPCsIkJ3-Ipv6e5n9JO1e3-3aB1l00Jsv0DM2e9SjrI7lfgmjT6AcnkCk&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Frapt%3DAEjHL4PL5GWdjCsyqHm1u06PrzO1mzLvvnVx4JX62rZrwfiQXo9IG0f_hYQR3HjPCsIkJ3-Ipv6e5n9JO1e3-3aB1l00Jsv0DM2e9SjrI7lfgmjT6AcnkCk&ifkv=AdBytiPvZOV6LPGvcr9tbi-Jm48gV_mGPVDMKwdlR4fQ2rXXQgeXA5idjf1JI7VmnfPhPWrxj2nHLg&osid=1&rart=ANgoxceBJTVAOt92cQH2Jt_AM2-0fFpTIDGGUKDXl2ju2KqyuYm1Or4Wvkisl_Mn_Ypl9WCwL5yGvjEarNfgDuqodD77yg8r8EbccXNfJ_bFnynC4Da130k&rpbg=1&service=accountsettings
 
 Using the above link create an app for your application and will geenarate password so add your email and generated password here below 
-   SENDER_EMAIL = "your-email@example.com"
-   APP_PASSWORD = "your-app-password"
+   EMAIL = "your-email@example.com"
+   EMAIL_PASSWORD = "your-app-password"
 
 Add this all in secrets.toml as given in project structure and fromthere use use secrets for safety purpose rather than accesing directly.
 
